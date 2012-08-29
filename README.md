@@ -13,6 +13,8 @@ $(window).breakpoints(my_breakpoints);
 // change event
 $(window).bind('changeBreakpoint', function(oldBP, currentBP) {
 	console.log(oldBP, currentBP);
+	
+	...do something
 });
 ```	
 	
